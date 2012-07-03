@@ -16,7 +16,7 @@ def setup(root=None, settings_module_name=None):
          "project.setting"
 
     Usage:
-    >>> from lib import env
+    >>> import env
     >>> env.setup()
     >>> # from now on paths are setup, and django is configured
     >>> # you can use it in separate "sandbox" script just to check
